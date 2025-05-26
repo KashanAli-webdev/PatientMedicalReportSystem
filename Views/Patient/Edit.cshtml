@@ -1,0 +1,104 @@
+﻿@model PatientRecordCURDWebApp.Models.Patient
+
+@{
+    ViewData["Title"] = "Edit Patient";
+}
+
+<h1 class="text-info-emphasis mb-3">Edit Patient</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-controller="Patient" asp-action="Edit" method="post" autocomplete="off">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" asp-for="PatientId" />
+
+            <div class="form-group mt-2">
+                <label asp-for="PatientName" class="control-label"></label>
+                <input asp-for="PatientName" class="form-control" autocomplete="off" />
+                <span asp-validation-for="PatientName" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="PatientGender" class="control-label"></label>
+                <input type="radio" asp-for="PatientGender" value="Male" /> Male
+                <input type="radio" asp-for="PatientGender" value="Female" /> Female
+                <span asp-validation-for="PatientGender" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="PatientAge" class="control-label"></label>
+                <input asp-for="PatientAge" class="form-control" />
+                <span asp-validation-for="PatientAge" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="PatientContact" class="control-label"></label>
+                <input asp-for="PatientContact" class="form-control" autocomplete="off" />
+                <span asp-validation-for="PatientContact" class="text-danger"></span>
+            </div>
+
+            <input type="hidden" asp-for="MedicalRecord.PatientId" />
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.BloodGroup" class="control-label"></label>
+                <input asp-for="MedicalRecord.BloodGroup" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.BloodGroup" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.HepatitisType" class="control-label"></label>
+                <input asp-for="MedicalRecord.HepatitisType" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.HepatitisType" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.CholesterolLevel" class="control-label"></label>
+                <input asp-for="MedicalRecord.CholesterolLevel" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.CholesterolLevel" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.BloodPressure" class="control-label"></label>
+                <input asp-for="MedicalRecord.BloodPressure" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.BloodPressure" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.SugarLevel" class="control-label"></label>
+                <input asp-for="MedicalRecord.SugarLevel" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.SugarLevel" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.Allergies" class="control-label"></label>
+                <input asp-for="MedicalRecord.Allergies" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.Allergies" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.ChronicDiseases" class="control-label"></label>
+                <input asp-for="MedicalRecord.ChronicDiseases" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.ChronicDiseases" class="text-danger"></span>
+            </div>
+
+            <div class="form-group mt-2">
+                <label asp-for="MedicalRecord.MedicalHistory" class="control-label"></label>
+                <input asp-for="MedicalRecord.MedicalHistory" class="form-control" autocomplete="off" />
+                <span asp-validation-for="MedicalRecord.MedicalHistory" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Edit" class="btn btn-warning mt-3" />
+            </div>
+
+            <div>
+                <a asp-action="Index" class="btn btn-secondary mt-5">Back to List</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

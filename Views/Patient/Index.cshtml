@@ -1,0 +1,79 @@
+﻿@model IEnumerable<PatientRecordCURDWebApp.Models.Patient>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-info-emphasis mb-3">Patients List</h1>
+<p>
+    <a class="btn btn-primary" asp-controller="Patient" asp-action="Create">Add Patient</a>
+</p>
+<table class="table table-responsive table-striped table-hover align-middle">
+    <thead class="table-dark">
+        <tr>
+            <th>
+                S.no
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientGender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientAge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PatientContact)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            byte i = 0;
+        }
+        @foreach (var item in Model) 
+        {
+			i++;
+            <tr>
+                <td>
+                    @i
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientGender)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientAge)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.PatientContact)
+                </td>
+                <td class="d-flex gap-3">
+                    <a class="btn btn-warning" 
+                        asp-controller="Patient" 
+                        asp-action="Edit" 
+                        asp-route-id="@item.PatientId">
+                        Edit
+                    </a>
+                    <a class="btn btn-info" 
+                        asp-controller="Patient" 
+                        asp-action="Details"    asp-route-id="@item.PatientId">
+                        Reports
+                    </a>
+                    <a class="btn btn-danger" 
+                        asp-controller="Patient" 
+                        asp-action="Delete" 
+                        asp-route-id="@item.PatientId">
+                        Delete
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

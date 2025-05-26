@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:views\\patient\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:views\\patient\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|f:\\web development\\asp.net core mvc\\practices\\patientrecordcurdwebapp\\models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25A8F61A-EACE-4A8A-BA56-CB09EA49F5B0}|PatientRecordCURDWebApp.csproj|solutionrelative:models\\medicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 546,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T14:44:39.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T14:44:38.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\Patient\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Delete.cshtml",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\Patient\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T14:44:14.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\Patient\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Patient\\Create.cshtml",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Views\\Patient\\Create.cshtml",
+              "RelativeToolTip": "Views\\Patient\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T14:43:54.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PatientController.cs",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Controllers\\PatientController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Controllers\\PatientController.cs",
+              "RelativeToolTip": "Controllers\\PatientController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T20:37:56.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MedicalRecord.cs",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Models\\MedicalRecord.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalRecord.cs",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Models\\MedicalRecord.cs",
+              "RelativeToolTip": "Models\\MedicalRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:33:47.586Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Patient.cs",
+              "DocumentMoniker": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Models\\Patient.cs",
+              "RelativeDocumentMoniker": "Models\\Patient.cs",
+              "ToolTip": "F:\\Web Development\\ASP.NET Core MVC\\Practices\\PatientRecordCURDWebApp\\Models\\Patient.cs",
+              "RelativeToolTip": "Models\\Patient.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T11:33:20.818Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 25,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
